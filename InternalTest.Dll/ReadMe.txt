@@ -1,5 +1,5 @@
 ﻿Bu Dll altında birden çok 'namespace' tanımlandı ve bu namespace'ler altındaki internal tanımlı üyeler(class,enum, struct vb.)
-arasında birlerini görme durumları incelenmiştir.
+arasında birbirlerini görme durumları incelenmiştir.
 
 Alttaki microsoft'un kendi sitesindeki açıklamada 'internal' için zaten açıkça aynı 'assembly' içerisinden erişilebilir şeklinde açıklıyor.
 
@@ -12,7 +12,7 @@ Bana burada sizin 'assembly' yerine 'namespace' kelimesini kullanıyormuşsunuz 
 .Net platformunda her bir proje 'assably' olarak adlandırılıyor.
 
 Ben bu örnek 'solution' altında sadece bir tane 'dll' projesi ekledim ve 
-üç farklı namespace tanımladım ve bu namespace'ler altında tanımlı sınıfların birlerini görme durumlarını inceledim.
+üç farklı namespace tanımladım ve bu namespace'ler altında tanımlı sınıfların birbirlerini görme durumlarını inceledim.
 
 
 En nihayetinde zaten 'internal' tanımlı bir üyeye kendi projesinin referans edildiği bir proje altından erişilemez.
